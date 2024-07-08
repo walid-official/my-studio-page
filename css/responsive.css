@@ -1,0 +1,203 @@
+@media(max-width: 1199px) {
+
+	/*About Area Start*/
+
+	.image-line{
+		display: none;
+	}
+
+	.margin-area{
+		margin: 6% 0;
+	}
+
+	/*contact Area Start*/
+
+	
+
+}
+@media(max-width: 991px) {
+
+	/*Sevice Content Area*/
+
+	.service-card{
+		margin-top: 7%;
+	}
+
+	.image-content h5,
+	.image-content p{
+		text-align: center;
+	}
+
+	.about-image-1{
+		text-align: center;
+	}
+
+	.about-intro{
+		display: block;
+		text-align: center;
+	}
+
+	.about-image-2{
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.image-content-2 h5,
+	.image-content-2 p{
+		text-align: center;
+		width: 100%;
+	}
+
+	.image-content-2{
+		margin-top: 5%;
+		margin-left: 0;
+	}
+
+	/*Team Area Start*/
+
+	.space{
+		margin-top: 10%;
+	}
+
+	.team-footer p{
+		text-align: center;
+		width: 100%;
+	}
+
+	/*contact Area End*/
+
+	.contact-area form{
+		text-align: center;
+	}
+
+	.input{
+		text-align: center;
+	}
+
+	.form-area-1 {
+		margin-bottom: 30px;
+	}
+
+	.contact-btn{
+		margin-top: 8%;
+	}
+
+	/*Footer Area*/
+
+	.footer-flex{
+		display: block;
+		text-align: center;
+	}
+
+}
+@media(max-width: 767px) {
+
+	/* Header Navber Area*/
+	.head-navber{
+		position: relative;
+	}
+
+	.social-icon{
+		display: flex;
+	}
+
+	.social-icon i{
+		font-size: 25px;
+		color: #fff;
+		cursor: pointer;
+		padding: 30px 0;
+	}
+
+	.social-icon .fa-times{
+		display: none;
+	}
+
+	.navber-menu ul{
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		z-index: 99;
+		background-color: #FED136;
+		width: 100%;
+		border-top: 2px solid #fff;
+		border-bottom: 2px solid #fff;
+		padding: 20px;
+	}
+
+	.navber-menu ul li a{
+		font-weight: bolder;
+		padding: 15px 10px;
+	}
+
+	.navber-menu ul li a:hover{
+		color: #fff;
+	}
+
+	.team-card{
+		margin-top: 15%;
+	}
+
+	.space{
+		margin-top: 0;
+	}
+
+	/*Contact area */
+
+	.contact-area{
+		height: 105vh;
+	}
+
+	.contact-btn{
+		margin-top: 10%;
+	}
+
+	.form-area-1 input:nth-child(2){
+		margin: 8% 0;
+	}
+
+}
+@media(max-width: 575px) {
+
+	/*Team Area end*/
+
+	.team-title h2{
+		font-size: 30px;
+	}
+
+	.team-footer p{
+		padding: 10% 0;
+	}
+
+	.blog-item{
+		text-align: center;
+	}
+
+	/*Contact Area*/
+
+	.form-area-1 input,
+	.form-area-2 input {
+		padding-right: 150px;
+	}
+
+	.contact-btn{
+		margin-top: 12%;
+	}
+
+	.footer-social a i{
+		margin: 0 6px;
+	}
+	.contact-title{
+		padding: 15% 0 10%;
+	}
+}
+@media(max-width: 400px) {
+	.team-card{
+		margin: 20% 0;
+	}
+
+	.form-area-1 input,
+	.form-area-2 input {
+		padding-right: 90px;
+	}
+}

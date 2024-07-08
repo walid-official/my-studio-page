@@ -1,0 +1,7 @@
+Google fonts::
+
+1. Montserrat reguler,bold,
+
+2. Droidserif Italic.
+
+3. Robotostab regular.

@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:ital@1&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0!important;
+	box-sizing: border-box;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.header-area{
+	background-image: url('../images/header-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.header-overlay{
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100vh;
+}
+
+.navber-flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.navber-logo{
+	display: flex;
+	align-items: center;
+}
+.navber-menu ul{
+	display: flex;
+	list-style: none;
+}
+
+.navber-menu ul li a{
+	padding: 20px 20px;
+	margin-top: 15px;
+	font-size: 18px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	display: block;
+	transition: .3s;
+}
+
+.navber-menu ul li a:hover{
+	color: #FED136;
+}
+
+.social-icon{
+	display: none;
+}
+
+
+/*Header Content Area*/
+.header-text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+.header-intro{
+	text-align: center;
+	color: #fff;
+}
+.header-intro h4{
+	font-size: 35px;
+	font-family: 'Gowun Batang', serif;
+	font-style: italic;
+}
+.header-intro h2{
+	font-size: 60px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	margin: 30px 0;
+}
+.header-intro button{
+	width: 250px;
+	height: 60px;
+	background-color: #FED136;
+	box-shadow: inset 0 0 0 0 #fff;
+	border: none;
+	color: #fff;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	position: relative;
+	overflow: hidden;
+	transition: ease-out .5s;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+.header-intro button:hover{
+	box-shadow: inset 300px 0 0 0 #fff;
+	color: #FED136;
+	border-radius: 10px 0 10px 0;
+}
+
+
+/*Service Area Start*/
+.service-area{
+	padding: 80px 0;
+}
+.service-title{
+	text-align: center;
+	margin-bottom: 6%;
+}
+.service-title h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.service-title p{
+	font-size: 20px;
+	font-family: 'Gowun Batang', serif;
+	font-style: italic;
+	color: #777777;
+}
+.service-card{
+	text-align: center;
+}
+.service-img{
+	border: 2px solid #FED136;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.service-img img{
+	margin: 15px 0 0;
+	cursor: pointer;
+}
+.service-content{
+	margin-top: 5%;
+}
+.service-content h4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 18px; 
+}
+.service-content p{
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #777777;
+}
+
+/*Porfolio Area Start*/
+.portfolio-area{
+	padding: 120px 0 100px;
+	background-color:  #f7f7f7;
+}
+.portfolio-title{
+	text-align: center;
+	margin-bottom: 8%;
+}
+.portfolio-title h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 45px;
+	text-transform: uppercase;
+}
+.portfolio-title p{
+	font-size: 20px;
+	font-family: 'Gowun Batang', serif;
+	font-style: italic;
+	color: #777777;
+}
+.portfolio-card {
+	margin: 20px 0;
+}
+.portfolio-image{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.portfolio-image img{
+	width: 100%;
+}
+.portfolio-content{
+	text-align: center;
+	background-color: #fff;
+	padding: 30px 0;
+}
+.portfolio-content h5{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+.portfolio-content span{
+	font-size: 18px;
+	font-family: 'Gowun Batang', serif;
+	font-style: italic;
+	color: #777777;
+}
+.overlay{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.25);
+	transition: .7s;
+}
+.portfolio-image:hover .overlay{
+	top: 0;
+}
+
+/*About Area Start*/
+.about-area{
+	padding: 130px 0 100px;
+}
+.about-title{
+	text-align: center;
+	margin-bottom: 12%;
+}
+.about-title h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 45px;
+}
+.about-title p{
+	font-size: 20px;
+	font-family: 'Gowun Batang', serif;
+	font-style: italic;
+	color: #777777;
+}
+.image-content h5{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-align: right;
+}
+.image-content p{
+	text-align: right;
+	color: #777777;
+	font-size: 15px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
+.image-line{
+	width: 1px;
+	height: 120px;
+	margin-left: 51%;
+	margin-top: -10px;
+	border-right: 2px solid #f1f1f1;
+}
+.about-image-2{
+	margin-left: 43%;
+}
+.about-intro{
+	display: flex;
+}
+.image-content-2{
+	text-align: left;
+	margin-left: 30px;
+}
+.image-content-2 h5{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+.image-content-2 p{
+	color: #777777;
+	font-size: 15px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	width: 80%;
+}
+
+/*Team Area Start*/
+.team-area{
+	padding: 100px 0 100px;
+	background-color: #f9f9f9;
+}
+.team-title{
+	text-align: center;
+	padding-bottom: 10%;
+}
+.team-title h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 42px;
+	text-transform: uppercase;
+}
+.team-title p{
+	font-size: 20px;
+	font-family: 'Gowun Batang', serif;
+	font-style: italic;
+	color: #777777;
+}
+.team-image-1{
+	width: 100%;
+	background-image: url('images/smith1.webp');
+	background-repeat: no-repeat;
+	background-position: top-center;
+	background-size: cover;
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.overlay-2{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.40);
+	transition: .7s;
+}
+.team-image-1:hover .overlay-2,
+.team-image-2:hover .overlay-2,
+.team-image-3:hover .overlay-2{
+	top: 0;
+}
+.team-image-2{
+	width: 100%;
+	background-image: url('images/smith2.webp');
+	background-repeat: no-repeat;
+	background-position: top-center;
+	background-size: cover;
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.team-image-3{
+	width: 100%;
+	background-image: url('images/smith3.webp');
+	background-repeat: no-repeat;
+	background-position: top-center;
+	background-size: cover;
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.team-content{
+	text-align: center;
+}
+.team-content h5{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	margin-top: 8%;
+}
+.team-content span{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #777777;
+}
+.team-icon{
+	text-align: center;
+	margin-top: 8%;
+	display: flex;
+	justify-content: center;
+}
+.team-icon i{
+	margin: 0 10px;
+	font-size: 24px;
+	color: #000;
+	border: 2px solid #000;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: inline-block;
+	padding-top: 12px;
+	transition: .3s;
+}
+.team-icon i:hover{
+	background-color: #000;
+	color: #fff;
+}
+.team-footer p{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 15px;
+	margin-top: 10%;
+	text-align: center;
+	margin: 10% auto 0 auto;
+	width: 60%;
+	color: #777777;
+
+}
+
+
+/*Blog Area Start*/
+.blog-area{
+	padding: 5% 0;
+}
+.blog-item{
+	margin: 20px 20px;
+}
+
+
+/*Contact Area Start*/
+.contact-area{
+	background-image: url('images/contact-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top-center;
+	width: 100%;
+	height: 110vh;
+	
+}
+.contact-title {
+	text-align: center;
+	padding: 10% 0 7%;
+}
+.contact-title h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 42px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.contact-title p{
+	font-size: 20px;
+	font-family: 'Gowun Batang', serif;
+	font-style: italic;
+	color: #777777;
+}
+
+
+.form-area-1 input{
+/*	display: block;*/
+	padding: 15px 200px 15px 10px;
+	border-radius: 5px;
+	border: none;
+}
+.form-area-1 input:nth-child(2){
+	margin: 5% 0;
+}
+.form-area-2 input{
+	padding: 15px 200px 165px 10px;
+	border: none;
+	border-radius: 5px;
+}
+.contact-btn{
+	text-align: center;
+	margin-top: 5%;
+}
+.contact-btn button{
+	width: 250px;
+	height: 55px;
+	background-color: #FED136;
+	box-shadow: inset 0 0 0 0 #fff;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	position: relative;
+	overflow: hidden;
+	transition: ease-out .5s;
+	/*margin-top: 15px;*/
+	border-radius: 5px;
+}
+.contact-btn button:hover{
+	box-shadow: inset 300px 0 0 0 #fff;
+	color: #FED136;
+	border-radius: 10px 0 10px 0;
+}
+
+/*Footer Area Start*/
+.footer-area{
+	padding: 20px 0;
+	background-color: #FFFFFF;
+}
+.footer-flex{
+	display: flex;
+	justify-content: space-around;
+}
+.footer-intro p{
+	font-size: 18px;
+	color: #777777;
+	font-family: 'Gowun Batang', serif;
+	font-weight: 400;
+	margin-top: 20px;
+}
+.footer-social{
+	margin-top: 10px;
+}
+.footer-social a i{
+	font-size: 22px;
+	color: #fff;
+	background-color: #000;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	padding: 15px;
+	margin: 0 10px;
+	transition: .3s;
+}
+.footer-social  .fa-facebook-f{
+	padding-left: 16px;
+}
+.footer-social a i:hover{
+	background-color: #FED136;
+}
